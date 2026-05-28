@@ -1,0 +1,31 @@
+// Exemplo completo de SheiLang
+// Testa: variáveis, while, if-else, aritmética, print
+
+// Calcula fatorial de 5
+var n: int = 5;
+var resultado: int = 1;
+var i: int = 1;
+
+while (i < n) {
+    i = i + 1;
+    resultado = resultado * i;
+}
+
+print(resultado);  // esperado: 120
+
+// Testa if-else e booleanos
+var x: int = 10;
+var dobro: int = x * 2;
+
+if (dobro > 15) {
+    print(1);   // esperado: 1
+} else {
+    print(0);
+}
+
+// Conta de 0 a 4
+var contador: int = 0;
+while (contador < 5) {
+    print(contador);   // esperado: 0 1 2 3 4
+    contador = contador + 1;
+}

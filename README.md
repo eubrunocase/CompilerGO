@@ -1,6 +1,6 @@
 # SheiLang Compiler
 
-Compilador completo para a linguagem **SheiLang**, implementado em Go. O projeto cobre todas as fases clássicas de compilação — da análise léxica até a execução em máquina virtual —, servindo como referência didática para o estudo de compiladores.
+Compilador completo para a linguagem **SheiLang**, implementado em Go. O projeto cobre todas as fases clássicas de compilação da análise léxica até a execução em máquina virtual, servindo como referência didática para o estudo de compiladores.
 
 ---
 
